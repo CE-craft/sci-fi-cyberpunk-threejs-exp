@@ -1,0 +1,17 @@
+@keyframes signal {
+  0% {
+    box-shadow: inset 0px 0px 60px 1px rgba(22, 151, 191, 0.8),
+      0px 0px 10px 1px rgba(22, 151, 191, 0.8);
+  }
+  50% {
+    box-shadow: inset 0px 3px 3px 1px rgba(22, 151, 191, 0.6),
+      0px 3px 3px 1px rgba(22, 151, 191, 0.6),
+      inset 0px 6px 6px 1px rgba(22, 151, 191, 0.3),
+      0px 6px 6px 1px rgba(22, 151, 191, 0.3);
+  }
+
+  100% {
+    box-shadow: inset 0px 0px 60px 1px rgba(22, 151, 191, 0.8),
+      0px 0px 10px 1px rgba(22, 151, 191, 0.8);
+  }
+}
